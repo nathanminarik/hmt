@@ -1,0 +1,225 @@
+/**** Font Declarations ****/
+/*  Main Body Styles */
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem; }
+
+body {
+  background: #fffafb;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
+
+p {
+  font-weight: 300;
+  letter-spacing: 1; }
+
+h6 {
+  font-size: .5em; }
+
+h5 {
+  font-size: 1em;
+  color: #d66432; }
+
+h4 {
+  font-size: 1.5em;
+  font-weight: 300; }
+
+h3 {
+  font-size: 3em;
+  font-weight: 300; }
+
+h2 {
+  font-size: 4em;
+  font-weight: 300; }
+
+h1 {
+  font-size: 5em; }
+
+.u-center-el {
+  margin: 0 auto; }
+
+.u-right {
+  float: right; }
+
+.u-left {
+  float: left; }
+
+.u-italics {
+  font-size: italics; }
+
+.u-header-border-through {
+  position: relative;
+  text-align: center; }
+  .u-header-border-through h2 {
+    margin: 30px;
+    margin-bottom: 40px;
+    color: #d66432;
+    text-align: center;
+    text-transform: capitalize; }
+  .u-header-border-through .background {
+    position: relative;
+    z-index: 1; }
+    .u-header-border-through .background:before {
+      border-top: 2px solid #dfdfdf;
+      content: "";
+      margin: 0 auto;
+      /* this centers the line to the full width specified */
+      position: absolute;
+      /* positioning must be absolute here, and relative positioning must be applied to the parent */
+      top: 50%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 95%;
+      z-index: -1; }
+    .u-header-border-through .background span {
+      /* to hide the lines from behind the text, you have to set the background color the same as the container */
+      background: #fffafb;
+      padding: 0 15px;
+      font-size: 4rem; }
+
+.flex, .flex-container-column {
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
+
+.flex-container-column {
+  -webkit-flex-flow: column wrap;
+  flex-flow: column wrap;
+  flex: 1; }
+
+/* HERO IMAGE - HEADER */
+/* container 100& width background */
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/home-health-care-2.jpg) no-repeat;
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-size: cover;
+  background-position: top;
+  position: relative; }
+
+.hero__content {
+  margin: 0 auto;
+  margin-top: 10%;
+  width: 85%;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 2px 2px rgba(0, 0, 155, 0.6); }
+  .hero__content h3 {
+    margin-bottom: 25px; }
+  .hero__content .btn {
+    margin-top: 20px;
+    text-shadow: 0 0 0; }
+
+/* overriding bootstrap padding and margins */
+.container-hero {
+  padding: 0; }
+
+.row-hero {
+  margin: 0; }
+
+.navbar {
+  margin-bottom: 0;
+  background: #fffafb;
+  border: 0; }
+
+#navbar {
+  margin-top: 50px; }
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background: #3a608f; }
+
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #3a608f; }
+
+.logo {
+  height: 100px; }
+  .logo img {
+    height: 70px; }
+
+.main-icons {
+  margin-bottom: 30px; }
+
+#customers-media {
+  padding: 30px 0;
+  background: #fff;
+  min-height: 100vh; }
+  #customers-media .background span {
+    background: #fff; }
+
+.media {
+  margin: 30px 30px 0 0;
+  padding: 15px;
+  background: #d7ebf4;
+  border-radius: 10px;
+  min-width: 275px;
+  max-width: 350px; }
+  @media screen and (max-width: 45em) {
+    .media {
+      margin-right: 0; } }
+
+.media:first-child {
+  margin-top: 30px; }
+
+.media__header {
+  height: 100px;
+  text-align: center;
+  color: #d66432; }
+
+.media__content {
+  display: flex;
+  flex: auto; }
+
+.media__footer {
+  text-align: center; }
+  .media__footer p {
+    margin: 15px 0 0; }
+
+.btn {
+  border-radius: 0;
+  border: 0; }
+
+.btn-orange {
+  background: #d66432;
+  color: #fff; }
+
+.to-top {
+  position: fixed;
+  z-index: 20;
+  bottom: 20;
+  right: 20;
+  border-radius: 50%;
+  background: #d66432;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer; }
+  .to-top p {
+    margin: 0;
+    padding: 0; }
+
+.featurette {
+  min-height: 100vh;
+  padding: 20px;
+  font-weight: 100; }
+  .featurette [class^="col-"] {
+    margin-bottom: 25px; }
+  .featurette p {
+    font-size: 1.25em; }
+
+.featurette:nth-child(odd) {
+  background: #fff; }
+  .featurette:nth-child(odd) .background span {
+    background: #fff; }
+
+blockquote {
+  font-weight: 100;
+  font-size: 2em; }
+
+.featurette-image {
+  border-radius: 50%; }
+
+/*# sourceMappingURL=main.css.map */

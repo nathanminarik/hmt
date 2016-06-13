@@ -1,0 +1,32 @@
+// Bootstrap overrides
+
+.navbar {
+    margin-bottom: 0;
+    background: $background-main;
+    border: 0
+}
+
+#navbar {
+    margin-top: 50px
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover {
+    background: $brand-blue-dark;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: $brand-blue-dark;
+}
+
+
+// Logo
+.logo {
+    height: 100px;
+    
+    img {
+        height: 70px;
+    }
+}

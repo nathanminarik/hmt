@@ -1,0 +1,57 @@
+.main-icons {
+    margin-bottom: 30px;
+}
+
+#customers-media {
+    padding: 30px 0;
+    background: $background-white;
+    min-height: 100vh;
+
+    .background {
+        span {
+            background: $background-white;
+        }
+    }
+
+}
+
+.media {
+    margin: 30px 30px 0 0;
+    padding: 15px;
+    background: $background-media;
+    border-radius: 10px;
+    min-width: 275px;
+    max-width: 350px;
+
+    @media screen and (max-width: $mobile-width) {
+        margin-right: 0;
+    }
+}
+
+.media:first-child {
+    margin-top: 30px;
+}
+
+.media__img {
+    // Some code
+}
+
+.media__header {
+    height: 100px;
+    text-align: center;
+    color: $brand-orange;
+}
+
+.media__content {
+    display: flex;
+    flex: auto;
+}
+
+.media__footer {
+    text-align: center;
+    
+    p {
+        margin: 15px 0 0;;
+    }
+}
+

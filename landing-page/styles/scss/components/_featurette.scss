@@ -1,0 +1,32 @@
+.featurette {
+    min-height: 100vh;
+    padding: 20px;
+    font-weight: 100;
+
+    [class^="col-"] {
+        margin-bottom: 25px
+    }
+
+    p {
+        font-size: 1.25em;
+    }
+}
+
+.featurette:nth-child(odd) {
+    background: $background-white;
+
+    .background {
+        span {
+            background: $background-white;
+        }
+    }
+}
+
+blockquote {
+    font-weight: 100;
+    font-size: 2em;
+}
+
+.featurette-image {
+    border-radius: 50%;
+}

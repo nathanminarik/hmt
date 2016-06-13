@@ -1,0 +1,24 @@
+/**** Font Declarations ****/
+
+$font-main:                     'Roboto', sans-serif;
+$brand-blue-dark:               rgba(58, 96, 143, 1);
+$brand-blue-light:              rgba(183, 219, 235, 1); 
+$brand-orange:                  rgba(214, 100, 50, 1);
+$brand-pink:                    #FFE6EA;
+
+// Background Colors
+
+$background-main:               lighten($brand-pink, 4%);
+$background-white:              #fff;
+$background-media:              lighten($brand-blue-light, 8%);
+
+
+// Font Colors
+$header-orange:                 $brand-orange;
+
+// Font Sizes
+$font-weight:                   300;
+$font-size-main:                1.5rem;
+
+// Screen sizes
+$mobile-width:                  45em;
